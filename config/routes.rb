@@ -9,6 +9,7 @@ Suggestotron::Application.routes.draw do
   root to: 'topics#index'
 
   match '/about' => 'pages#about'
+  match '/contact' => 'pages#contact'
 
 
   # The priority is based upon order of creation:
